@@ -1,6 +1,6 @@
 const path = require('path');
 
-modules.exports = {
+module.exports = {
   // Inform webpack that we're building a bundle for nodeJS, tather than for the browser (default)
   target: 'node',
 
@@ -19,7 +19,7 @@ modules.exports = {
       {
         test: /\.js?$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
         options: {
           presets: [
             'react',
