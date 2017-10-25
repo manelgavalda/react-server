@@ -2,11 +2,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import Routes from './Routes';
+import Router from './Routes';
 
 ReactDOM.hydrate(
   <BrowserRouter>
     <Router />
-  </BrowserRouter>
-  , document.querySelector('#root')
+  </BrowserRouter>,
+  document.querySelector('#root')
 );
