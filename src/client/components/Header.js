@@ -6,5 +6,5 @@ export default () => {
     <div>
       <Link to="/">React Home</Link>
     </div>
-  )
-}
+  );
+};
