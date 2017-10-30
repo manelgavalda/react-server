@@ -6,7 +6,7 @@ const Home = () => {
       <h3>Welcome</h3>
       <p>Check out these awesome features</p>
     </div>
-  )
+  );
 };
 
 export default {

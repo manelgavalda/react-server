@@ -13,7 +13,7 @@ import reducers from './reducers';
 
 const axiosInstance = axios.create({
   baseURL: '/api'
-})
+});
 
 const store = createStore(
   reducers,
