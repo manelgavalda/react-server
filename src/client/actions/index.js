@@ -25,5 +25,5 @@ export const fetchAdmins = () => async (dispatch, getState, api) => {
   dispatch({
     type: FETCH_ADMINS,
     payload: res
-  })
-}
+  });
+};
